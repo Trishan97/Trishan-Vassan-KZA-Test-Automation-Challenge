@@ -29,13 +29,13 @@ Trishan Vassan KZA Test Automation Challenge Repository
 * Create test plan for the above created test cases. Approach to decide what needs to be tested at Back-End & Front-End
   * This Deliverable can be found here : [Manual Test Cases](/FrontendAutomatedTests/Features/LoginTests.feature)
 <br />
-<br />
+
 
 * Perform CRUD operations on Trello board. Automate (at least three) of the previously created test cases for both UI and Back-End.
 
   * This Deliverable can be found here : [Manual Test Cases](/FrontendAutomatedTests/Features/LoginTests.feature)
 <br />
-<br />
+
 
 * **Provide a test report.**
   * This Deliverable can be found here : [Frontend Automated Results](/FrontendAutomatedTests/bin/Debug/netcoreapp3.1/LivingDoc.html)
