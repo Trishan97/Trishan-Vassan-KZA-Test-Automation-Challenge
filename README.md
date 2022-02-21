@@ -26,9 +26,8 @@ Trishan Vassan KZA Test Automation Challenge Repository
 * Perform CRUD operations on Trello board. Automate (at least three) of the previously created test cases for both UI and Back-End.
 * Provide a test report.
 
+<br />
+
 # How to run Tests
 
-
-![Alt text]("Screenshots and Recordings\SolutionTest.PNG" ?raw=true "Title") 
-
-![plot](Screenshots and Recordings\SolutionTest.PNG)
+![Solution Eg](/Media/Screenshots/SolutionTest.PNG)
