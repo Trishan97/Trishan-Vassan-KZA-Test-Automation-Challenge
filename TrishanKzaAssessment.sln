@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontendAutomatedTests", "FrontendAutomatedTests\FrontendAutomatedTests.csproj", "{E2849C03-55C0-4C3A-8E2A-E9BFF250C54F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAutomatedTests", "BackendAutomatedTests\BackendAutomatedTests.csproj", "{FCFF597B-4CDF-4F19-A873-4F1AC000922E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendAutomatedTests", "BackendAutomatedTests\BackendAutomatedTests.csproj", "{FCFF597B-4CDF-4F19-A873-4F1AC000922E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deliverables", "Deliverables", "{86EE2921-425B-4836-A3A5-07CBF267FE46}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
