@@ -1,11 +1,19 @@
 # Trishan-Vassan-Kza-Test-Automation-Challenge
 
-## Trishan Vassan KZA Test Automation Challenge Repository
+## Table of Contents
+
+[Deliverables](#deliverables)
+
+[How to Setup Repo and Run Tests](#how-to-setup-repo-and-run-tests)
+
+[Screen Recording Showing Backend Test Running and Test results Generation](#screen-recording-showing-backend-test-running-process-and-test-report-generation)
 
 <br />
 
 # Deliverables
 
+
+[Table of Contents](#table-of-contents)
 * Create a series of **manual test cases** that covers the CRUD operations on Trello board. Cover both **positive** & **negative** cases.
   * This Deliverable can be found in this folder : [Deliverables](/Deliverables/) , in the ***Manual Test Cases.pdf*** file
 
@@ -57,6 +65,9 @@ This Deliverable can be found here :
 <br />
 
 # How to Setup Repo, Run Tests and Generate test results
+
+
+[Table of Contents](#table-of-contents)
 
 Once the Repo has been successfully cloned these steps can be used to set up the tests and execute them locally
 
@@ -158,5 +169,7 @@ or
 <br />
 
 # Screen Recording showing Backend Test Running Process and Test Report Generation
+
+[Table of Contents](#table-of-contents)
 
 <https://user-images.githubusercontent.com/30235965/155113551-be451673-f41e-4f47-a243-b0a3e50f470e.mp4>
