@@ -3,37 +3,27 @@
 ## Heading 2
 
 Trishan Vassan KZA Test Automation Challenge Repository
-
-[An Internal Link](/FrontendAutomatedTests/Features/LoginTests.feature)
-
-* List item
-  * Nested list item indented by 3 spaces
-
-## Heading 2d
-
-### Heading 3
-
-#### Heading 4
-
-## Another Heading 2
-
-### Another Heading 3
+<br />
 
 # Deliverables
 
 * Create a series of manual test cases that covers the CRUD operations on Trello board. Cover both **positive** & **negative** cases.
-  * This Deliverable can be found here : [Manual Test Cases](/Deliverables/)
+  * This Deliverable can be found in this folder : [Deliverables](/Deliverables/) , in the ***Manual Test Cases.pdf*** file
 
-<br />
 <br />
 
 * Create test plan for the above created test cases. Approach to decide what needs to be tested at Back-End & Front-End
-  * This Deliverable can be found here : [Manual Test Cases](/FrontendAutomatedTests/Features/LoginTests.feature)
+  * This Deliverable can be found here : [Deliverables](/Deliverables/) , in the ***Test Plan.pdf*** file
+  
 <br />
 
 * Perform CRUD operations on Trello board. Automate (at least three) of the previously created test cases for both UI and Back-End.
 
-  * This Deliverable can be found here : [Manual Test Cases](/FrontendAutomatedTests/Features/LoginTests.feature)
+  * This Deliverable can be found here :
+  
+     *  [Frontend Automated Test Features](/FrontendAutomatedTests/Features/)
+     *  [Backend Automated Test Features](/BackendAutomatedTests/Features/)
+  
 <br />
 
 * **Provide a test report.**
