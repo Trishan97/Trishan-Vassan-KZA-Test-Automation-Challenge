@@ -33,23 +33,5 @@ namespace FrontendAutomatedTests.StepDefinitions
         }
 
 
-
-        [AfterScenario("NegativeTest")]
-        public void AfterStep()
-        {
-            var filename = Path.ChangeExtension("FailedTestScreenshot", "png");
-
-            //screenshotTaker.GetScreenshot().SaveAsFile(filename);
-            var screenshot = ((ITakesScreenshot)_webDriverContext.driver).GetScreenshot();
-            screenshot.SaveAsFile(filename, ScreenshotImageFormat.Png);
-
-            _specFlowOutputHelper.AddAttachment(filename);
-
-
-        }
-
-       
-        
-
     }
 }

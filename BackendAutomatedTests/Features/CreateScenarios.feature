@@ -11,6 +11,6 @@ Scenario: Create New Board Through API
 	Then the newly created Board is deleted
 
 @Negative
-Scenario: Create New Board with an invalid name through API
+Scenario: Attempt to Create New Board with an invalid name through API
 	Given the user wants to create a new Board with an invalid name
 	Then an "invalid value for name" and "BadRequest" error occurs and the board is not created

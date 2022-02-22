@@ -128,14 +128,14 @@ this.FeatureBackground();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Update an Existing Board with an Unauthorized Id through API")]
+        [NUnit.Framework.DescriptionAttribute("Attempt Update an Existing Board with an Unauthorized Board Id through API")]
         [NUnit.Framework.CategoryAttribute("Negative")]
-        public virtual void UpdateAnExistingBoardWithAnUnauthorizedIdThroughAPI()
+        public virtual void AttemptUpdateAnExistingBoardWithAnUnauthorizedBoardIdThroughAPI()
         {
             string[] tagsOfScenario = new string[] {
                     "Negative"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Update an Existing Board with an Unauthorized Id through API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Attempt Update an Existing Board with an Unauthorized Board Id through API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 13
 this.ScenarioInitialize(scenarioInfo);
 #line hidden

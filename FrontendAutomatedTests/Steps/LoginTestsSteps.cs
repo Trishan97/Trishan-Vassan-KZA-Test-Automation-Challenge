@@ -6,7 +6,6 @@ using System;
 using TechTalk.SpecFlow;
 using FrontendAutomatedTests.Context;
 using System.Threading;
-using TechTalk.SpecFlow.Infrastructure;
 using FrontendAutomatedTests.Consts;
 
 
@@ -68,55 +67,12 @@ namespace FrontendAutomatedTests.Steps
 
             WebDriverWait wait = new WebDriverWait(_webDriverContext.driver, TimeSpan.FromSeconds(10));
 
-
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//h3[text()='YOUR WORKSPACES']")));
-
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//h2[text()='Most popular templates']")));
-
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Boards']")));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Templates']")));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Home']")));
 
-
-            //Thread.Sleep(5000);
-
-
-
-
-
-            //string strCmdText;
-            ////For Testing
-            //strCmdText = "/K ipconfig";
-
-            //System.Diagnostics.Process.Start("CMD.exe", strCmdText);
-
-            //Thread.Sleep(5000);
-
-
-
-            //emailInput.SendKeys("TrelloNegativeTest");
-            //paswordInput.SendKeys("TrelloNegativeTest");
-
-            //var searchButton = _webDriverContext.driver.FindElement(By.XPath("//*[@id='login']"));
-            //searchButton.Click();
-
-
-            //wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//p[text()=\"There isn\'t an account for this email\"]")));
-
-
-            //Thread.Sleep(5000);
-        }
-
-        [Given(@"the user can see their board")]
-        public void GivenTheUserCanSeeTheirBoard()
-        {
-            WebDriverWait wait = new WebDriverWait(_webDriverContext.driver, TimeSpan.FromSeconds(10));
-
-            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Trishan Vassan KZA Assessment']")));
-            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Highlights']")));
-            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Workspace table']")));
-            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Members']")));
-            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Settings']")));
 
         }
 
@@ -141,8 +97,6 @@ namespace FrontendAutomatedTests.Steps
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//p[text()=\"There isn\'t an account for this username\"]")));
 
         }
-
-
 
 
 
