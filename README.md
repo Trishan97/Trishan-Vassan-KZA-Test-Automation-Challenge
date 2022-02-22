@@ -12,8 +12,8 @@
 
 # Deliverables
 
-
 [Table of Contents](#table-of-contents)
+
 * Create a series of **manual test cases** that covers the CRUD operations on Trello board. Cover both **positive** & **negative** cases.
   * This Deliverable can be found in this folder : [Deliverables](/Deliverables/) , in the ***Manual Test Cases.pdf*** file
 
@@ -65,7 +65,6 @@ This Deliverable can be found here :
 <br />
 
 # How to Setup Repo, Run Tests and Generate test results
-
 
 [Table of Contents](#table-of-contents)
 
@@ -162,13 +161,15 @@ or
 
    ![ Report eg ](/Media/Screenshots/reportExample.PNG)
 
-* What the batch files execute for Frontend report: 
+* What the batch files execute for Frontend report:
+
 ````
 cd FrontendAutomatedTests\bin\Debug\netcoreapp3.1
 
 livingdoc test-assembly "FrontendAutomatedTests.dll" -t TestExecution.json
 LivingDoc.html
 ````
+
 * For Backend Test Report
 
 ````
@@ -178,7 +179,7 @@ livingdoc test-assembly "BackendAutomatedTests.dll" -t TestExecution.json
 LivingDoc.html
 ````
 
-* **Note Again** the TestExecution.json file will only be generate once a test run has been completed and the report generation can only be done through the batch file if the SpecFlow.Plus.LivingDoc.CLI has been installed as stated in one of the previous steps
+* **Note Again** the TestExecution.json file will only be generated once a test run has been completed and the report generation can only be done through the batch file if the SpecFlow.Plus.LivingDoc.CLI has been installed as stated in one of the previous steps
 
 * From these reports you can view in detail each scenario and additional information about each, there is also an analytics page which shows the tests run vs tests passed or failed, which can be useful when presenting test results to a client, team or stakeholder
 
