@@ -41,8 +41,8 @@ This Deliverable can be found here :
 
   * This Deliverable can be found in this folder : [Deliverables](/Deliverables/) , in the ***Test Report.pdf*** file
 
-  * Frontend Test Results Report can be found here : [Frontend Automated Results](/TestResults/LivingDocFrontend.html)
-  * Backend Test Results Report can be found here : [Backend Automated Results](/TestResults/LivingDocBackend.html)
+  * Frontend Test Results Report can be found here : [Frontend Automated Results](/Test_Results/LivingDocFrontend.html)
+  * Backend Test Results Report can be found here : [Backend Automated Results](/Test_Results/LivingDocBackend.html)
 
 <br />
 
