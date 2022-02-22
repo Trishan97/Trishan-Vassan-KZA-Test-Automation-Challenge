@@ -162,6 +162,24 @@ or
 
    ![ Report eg ](/Media/Screenshots/reportExample.PNG)
 
+* What the batch files execute for Frontend report: 
+````
+cd FrontendAutomatedTests\bin\Debug\netcoreapp3.1
+
+livingdoc test-assembly "FrontendAutomatedTests.dll" -t TestExecution.json
+LivingDoc.html
+````
+* For Backend Test Report
+
+````
+cd BackendAutomatedTests\bin\Debug\netcoreapp3.1
+
+livingdoc test-assembly "BackendAutomatedTests.dll" -t TestExecution.json
+LivingDoc.html
+````
+
+* **Note Again** the TestExecution.json file will only be generate once a test run has been completed and the report generation can only be done through the batch file if the SpecFlow.Plus.LivingDoc.CLI has been installed as stated in one of the previous steps
+
 * From these reports you can view in detail each scenario and additional information about each, there is also an analytics page which shows the tests run vs tests passed or failed, which can be useful when presenting test results to a client, team or stakeholder
 
    ![ Analytics ](/Media/Screenshots/analytics.PNG)
