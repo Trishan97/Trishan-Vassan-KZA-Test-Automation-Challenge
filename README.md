@@ -47,7 +47,7 @@ This Deliverable can be found here :
 
 <br />
 
-# How to run Tests
+# How to Setup Repo and run Tests
 
 Once the Repo has been successfully cloned these steps can be used to set up the tests and execute them locally
 
@@ -145,3 +145,7 @@ or
 * From these reports you can view in detail each scenario and additional information about each, there is also an analytics page which shows the tests run vs tests passed or failed, which can be useful when presenting test results to a client, team or stakeholder
 
 ![ Analytics ](/Media/Screenshots/analytics.PNG)
+
+
+
+![ E2E Video example ](/Media/Recordings/BackendTestsE2E.mp4)
