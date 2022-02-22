@@ -32,7 +32,6 @@ namespace FrontendAutomatedTests.Steps
 
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Trishan Vassan KZA Assessment']")));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Highlights']")));
-            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Workspace table']")));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Members']")));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[text()='Settings']")));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//div[text()='Trello FrontEnd Testing']")));
