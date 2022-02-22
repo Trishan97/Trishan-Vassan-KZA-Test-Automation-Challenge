@@ -35,7 +35,8 @@ namespace BackendAutomatedTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Delete Backend Automated Tests", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Delete Backend Automated Tests", "Covered Scenarios :\r\n- Delete newly Created Board Through API\r\n- Attempt to Delet" +
+                    "e Board with an invalid ID through API", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -75,9 +76,9 @@ namespace BackendAutomatedTests.Features
         
         public virtual void FeatureBackground()
         {
-#line 3
+#line 6
 #line hidden
-#line 4
+#line 7
  testRunner.Given("the Trello API is healthy and working", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
         }
@@ -91,7 +92,7 @@ namespace BackendAutomatedTests.Features
                     "Positive"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Delete Newly Created Board Through API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 10
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -111,22 +112,22 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 6
 this.FeatureBackground();
 #line hidden
-#line 8
+#line 11
  testRunner.Given("the user wants to create a new Board through the API", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 12
  testRunner.When("the Post request is made to create the Board", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 13
  testRunner.And("the Board has been successfully created with the correct Values", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 14
  testRunner.Then("the newly created Board is deleted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 12
+#line 15
  testRunner.And("validation is done to confirm the Board has been successfully deleted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -142,7 +143,7 @@ this.FeatureBackground();
                     "Negative"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Attempt to delete a Board that does not exist Through API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 15
+#line 18
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -162,13 +163,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 6
 this.FeatureBackground();
 #line hidden
-#line 16
+#line 19
  testRunner.When("a <Board_Id> that does not exist attempts to be deleted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 17
+#line 20
  testRunner.Then("an \"invalid id\" and \"BadRequest\" error occurs and the board is not deleted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

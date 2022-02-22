@@ -1,4 +1,10 @@
 ﻿Feature: GET, Read Backend Automated tests
+Covered Scenarios :
+- Get All Boards Through API
+- Get Specific Board Through API
+- Get Existing Lists on Board
+- Attempt to GET Board with an invalid auth through API
+- Attempt to GET Board with an invalid Board ID through API
 
 Background:
 	Given the Trello API is healthy and working

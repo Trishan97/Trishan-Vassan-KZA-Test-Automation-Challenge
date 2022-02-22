@@ -35,7 +35,8 @@ namespace BackendAutomatedTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "PUT, Update Backend Automated tests", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "PUT, Update Backend Automated tests", "Covered Scenarios :\r\n- Update Existing Board through API\r\n- Attempt Update an Exi" +
+                    "sting Board with an Unauthorized Board Id through API", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -75,9 +76,9 @@ namespace BackendAutomatedTests.Features
         
         public virtual void FeatureBackground()
         {
-#line 3
+#line 6
 #line hidden
-#line 4
+#line 7
  testRunner.Given("the Trello API is healthy and working", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
         }
@@ -91,7 +92,7 @@ namespace BackendAutomatedTests.Features
                     "Positive"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Update Existing Board through API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 10
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -111,16 +112,16 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 6
 this.FeatureBackground();
 #line hidden
-#line 8
+#line 11
  testRunner.Given("an existing board to be updated exists", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 12
  testRunner.When("an update is made to the board through the API", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 13
  testRunner.Then("the Updated values are validated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -136,7 +137,7 @@ this.FeatureBackground();
                     "Negative"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Attempt Update an Existing Board with an Unauthorized Board Id through API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 13
+#line 16
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -156,16 +157,16 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 6
 this.FeatureBackground();
 #line hidden
-#line 14
+#line 17
  testRunner.Given("an existing board to be updated exists", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 15
+#line 18
  testRunner.When("an update is made to the board through the API with an unauthorized id", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 16
+#line 19
  testRunner.Then("an \"Unauthorized\" and \"unauthorized permission requested\" error occurs and the bo" +
                         "ard is not updated", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

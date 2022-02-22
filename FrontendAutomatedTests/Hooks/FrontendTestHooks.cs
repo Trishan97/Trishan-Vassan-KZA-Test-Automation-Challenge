@@ -1,9 +1,6 @@
-﻿using System;
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 using FrontendAutomatedTests.Context;
 using TechTalk.SpecFlow.Infrastructure;
-using System.IO;
-using OpenQA.Selenium;
 
 namespace FrontendAutomatedTests.StepDefinitions
 {

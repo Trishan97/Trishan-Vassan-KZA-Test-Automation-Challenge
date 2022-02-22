@@ -1,9 +1,7 @@
 ﻿Feature: LoginTests
-
 Covered Scenarios :
-- Login to the Trello Website with valid credentials
-- Attempt to Login to the Trello Website with invalid credentials
-	
+- Login to the Trello Website with valid credentials through Frontend UI
+- Attempt to Login to the Trello Website with invalid credentials through Frontend UI
 
 @Positive
 Scenario: User logs in successfully to Trello's Website

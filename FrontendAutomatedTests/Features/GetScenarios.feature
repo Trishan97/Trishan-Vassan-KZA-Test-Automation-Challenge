@@ -1,4 +1,7 @@
 ﻿Feature: GET Frontend Automated tests
+Covered Scenarios :
+- Get Existing Boards Through Frontend UI
+- Get Existing Cards on existing Board
 
 Background:
 	Given the user has navigated to Trello's Website

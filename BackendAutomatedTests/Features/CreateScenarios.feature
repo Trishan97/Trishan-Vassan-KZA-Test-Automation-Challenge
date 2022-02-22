@@ -1,4 +1,7 @@
 ﻿Feature: Create, POST Backend Automated tests
+Covered Scenarios :
+- Create New Board Through API
+- Attempt to Create New Board with an invalid name through API
 
 Background:
 	Given the Trello API is healthy and working

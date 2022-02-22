@@ -46,8 +46,6 @@ namespace FrontendAutomatedTests.Steps
 
             var atlassianloginButton = _webDriverContext.driver.FindElement(By.XPath("//*[@id='login']"));
             atlassianloginButton.Click();
-
-            //Sleep thread is present as when a valid email address in inputted, a login to atlassian button automatically appears
             Thread.Sleep(5000);
 
             var paswordInput = _webDriverContext.driver.FindElement(By.XPath("//*[@id='password']"));

@@ -35,7 +35,9 @@ namespace BackendAutomatedTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "GET, Read Backend Automated tests", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "GET, Read Backend Automated tests", "Covered Scenarios :\r\n- Get All Boards Through API\r\n- Get Specific Board Through A" +
+                    "PI\r\n- Get Existing Lists on Board\r\n- Attempt to GET Board with an invalid auth t" +
+                    "hrough API\r\n- Attempt to GET Board with an invalid Board ID through API", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -75,9 +77,9 @@ namespace BackendAutomatedTests.Features
         
         public virtual void FeatureBackground()
         {
-#line 3
+#line 9
 #line hidden
-#line 4
+#line 10
  testRunner.Given("the Trello API is healthy and working", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
         }
@@ -91,7 +93,7 @@ namespace BackendAutomatedTests.Features
                     "Positive"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get All Boards Request", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 13
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -111,13 +113,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 9
 this.FeatureBackground();
 #line hidden
-#line 8
+#line 14
  testRunner.When("a GET all boards request is performed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 9
+#line 15
  testRunner.Then("the response code is successful", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -133,7 +135,7 @@ this.FeatureBackground();
                     "Positive"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get Existing Boards", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 12
+#line 18
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -153,13 +155,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 9
 this.FeatureBackground();
 #line hidden
-#line 13
+#line 19
  testRunner.When("a GET request is performed for an existing board", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 14
+#line 20
  testRunner.Then("the \"Trello FrontEnd Testing\" board should be returned", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -186,7 +188,7 @@ this.FeatureBackground();
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("lists", lists);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get Existing Lists on Board", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 17
+#line 23
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -206,13 +208,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 9
 this.FeatureBackground();
 #line hidden
-#line 18
+#line 24
  testRunner.When("a GET request is performed for all lists on a specific board", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 19
+#line 25
  testRunner.Then(string.Format("the following {0} should be displayed", lists), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -236,7 +238,7 @@ this.FeatureBackground();
             argumentsOfScenario.Add("error_message", error_Message);
             argumentsOfScenario.Add("status_code", status_Code);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Incorrect Authentication Error Response", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 30
+#line 36
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -256,13 +258,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 9
 this.FeatureBackground();
 #line hidden
-#line 31
+#line 37
  testRunner.Given("a Get request is made with an invalid Authentication", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 32
+#line 38
  testRunner.Then(string.Format("an {0} and {1} response is received", error_Message, status_Code), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -288,7 +290,7 @@ this.FeatureBackground();
             argumentsOfScenario.Add("error_message", error_Message);
             argumentsOfScenario.Add("status_code", status_Code);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Validate Incorect ID Error Response", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 39
+#line 45
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -308,13 +310,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 3
+#line 9
 this.FeatureBackground();
 #line hidden
-#line 40
+#line 46
  testRunner.Given(string.Format("a Get request is made with an incorrect {0} value", board_ID), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 41
+#line 47
  testRunner.Then(string.Format("an {0} and {1} response is received", error_Message, status_Code), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

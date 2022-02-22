@@ -1,4 +1,7 @@
 ﻿Feature: PUT, Update Backend Automated tests
+Covered Scenarios :
+- Update Existing Board through API
+- Attempt Update an Existing Board with an Unauthorized Board Id through API
 
 Background:
 	Given the Trello API is healthy and working

@@ -1,4 +1,7 @@
 ﻿Feature: Delete Backend Automated Tests
+Covered Scenarios :
+- Delete newly Created Board Through API
+- Attempt to Delete Board with an invalid ID through API
 
 Background:
 	Given the Trello API is healthy and working

@@ -1,5 +1,6 @@
 ﻿Feature: DeleteScenarios
-	Simple calculator for adding two numbers
+Covered Scenarios :
+- Create and Delete New Board Through Frontend UI
 
 Background:
 	Given the user has navigated to Trello's Website
