@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-[Deliverables](#deliverables)
+* [Deliverables](#deliverables)
 
-[How to Setup Repo and Run Tests](#how-to-setup-repo-and-run-tests)
+* [How to Setup Repo and Run Tests](#how-to-setup-repo-and-run-tests)
 
-[Screen Recording Showing Backend Test Running and Test results Generation](#screen-recording-showing-backend-test-running-process-and-test-report-generation)
+* [Screen Recording Showing Backend Test Running and Test results Generation](#screen-recording-showing-backend-test-running-process-and-test-report-generation)
 
 <br />
 
@@ -31,9 +31,9 @@
 This Deliverable can be found here :
   
 * Frontend Automated Test Features
-  * [Post/Create Frontend Scenarios](/FrontendAutomatedTests/Features/CreateScenarios.feature)
-  * [Get/Read Frontend Scenarios](/FrontendAutomatedTests/Features/GetScenarios.feature)
-  * [Put/Update Frontend Scenarios](/FrontendAutomatedTests/Features/UpdateScenarios.feature)
+  * [Create Frontend Scenarios](/FrontendAutomatedTests/Features/CreateScenarios.feature)
+  * [Read Frontend Scenarios](/FrontendAutomatedTests/Features/GetScenarios.feature)
+  * [Update Frontend Scenarios](/FrontendAutomatedTests/Features/UpdateScenarios.feature)
   * [Delete Frontend Scenarios](/FrontendAutomatedTests/Features/DeleteScenarios.feature)
 
 <br />
@@ -88,7 +88,7 @@ or through Visual Studio or any other C# compatible IDE
 
    ![not installed](/Media/Screenshots/Not_installed.PNG)
 
-    **This is only relevant if you have recieved the above Prompt**
+    **This is only relevant if you have received the above Prompt**
    Install the targeting version of .NET Core 3.1 Runtime (LTS) through the visual studio installer :
 
    ![Netcore3](/Media/Screenshots/netcore.PNG)
@@ -113,7 +113,7 @@ You may need to reopen visual studio and the project after installation and open
 
 5. After that has been successfully completed the next step is to build the solution, this can be done by right clicking on the Solution file **Solution 'TrishanKzaAssessment' (2 of 2 projects)** and clicking on the **Build Solution** Option
 
-You can verify that the solution has built successfully by looking at the output window and gettign a build succeeded message :
+You can verify that the solution has built successfully by looking at the output window and gettgng a build succeeded message :
 
 ![Nuget](/Media/Screenshots/BuildSolution.PNG)
 
@@ -141,7 +141,7 @@ or
 
 9. These next steps are **Optional** if you would like to get a current test report of the tests you have just run. This can be done so by installing Specflows' living doc CLI and then following the remaining steps listed. Also **please note** that a current test report can only be generated **once a test run has been completed** (this can be a single test, selected test or all tests) but a test does need to be run before completing the following steps for either the Frontend or backend :
 
-* Open a command prompt and onstall living doc with this command :
+* Open a command prompt and install living doc with this command :
 
 ````
    dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
