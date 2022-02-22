@@ -52,13 +52,11 @@ This Deliverable can be found here :
 
 <br />
 
-
 **Alternatively, all Deliverables are available in the following Google Drive folder :**  [Google Drive Deliverables folder](https://drive.google.com/drive/folders/1g9KNgwbqAdbl6i_D7t3sO0kpdaOeCRks?usp=sharing)
 
 <br />
 
-
-# How to Setup Repo, run Tests and produce test results
+# How to Setup Repo, Run Tests and Generate test results
 
 Once the Repo has been successfully cloned these steps can be used to set up the tests and execute them locally
 
@@ -80,7 +78,7 @@ or through Visual Studio or any other C# compatible IDE
 
    ![not installed](/Media/Screenshots/Not_installed.PNG)
 
-    **This is only relevant if you have recieved the above Prompt** 
+    **This is only relevant if you have recieved the above Prompt**
    Install the targeting version of .NET Core 3.1 Runtime (LTS) through the visual studio installer :
 
    ![Netcore3](/Media/Screenshots/netcore.PNG)
@@ -93,8 +91,7 @@ You may need to reopen visual studio and the project after installation and open
 
 <br />
 
-
-   * ![Solution](/Media/Screenshots/solution.PNG)
+* ![Solution](/Media/Screenshots/solution.PNG)
 
 <br />
 
@@ -162,6 +159,4 @@ or
 
 # Screen Recording showing Backend Test Running Process and Test Report Generation
 
-https://user-images.githubusercontent.com/30235965/155113551-be451673-f41e-4f47-a243-b0a3e50f470e.mp4
-
-
+<https://user-images.githubusercontent.com/30235965/155113551-be451673-f41e-4f47-a243-b0a3e50f470e.mp4>
