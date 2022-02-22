@@ -89,14 +89,14 @@ namespace FrontendAutomatedTests.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute(": Create and Delete New Board Through Frontend UI")]
+        [NUnit.Framework.DescriptionAttribute("Create and Delete New Board Through Frontend UI")]
         [NUnit.Framework.CategoryAttribute("Positive")]
         public virtual void CreateAndDeleteNewBoardThroughFrontendUI()
         {
             string[] tagsOfScenario = new string[] {
                     "Positive"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo(": Create and Delete New Board Through Frontend UI", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create and Delete New Board Through Frontend UI", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 11
 this.ScenarioInitialize(scenarioInfo);
 #line hidden

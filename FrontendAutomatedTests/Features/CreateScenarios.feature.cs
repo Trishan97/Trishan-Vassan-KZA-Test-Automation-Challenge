@@ -90,14 +90,14 @@ namespace FrontendAutomatedTests.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute(": Create New Board Through Frontend UI")]
+        [NUnit.Framework.DescriptionAttribute("Create New Board Through Frontend UI")]
         [NUnit.Framework.CategoryAttribute("Positive")]
         public virtual void CreateNewBoardThroughFrontendUI()
         {
             string[] tagsOfScenario = new string[] {
                     "Positive"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo(": Create New Board Through Frontend UI", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create New Board Through Frontend UI", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 12
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -141,14 +141,14 @@ this.FeatureBackground();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute(": User Unable to create Board without supplying name")]
+        [NUnit.Framework.DescriptionAttribute("User Unable to create Board without supplying name")]
         [NUnit.Framework.CategoryAttribute("Negative")]
         public virtual void UserUnableToCreateBoardWithoutSupplyingName()
         {
             string[] tagsOfScenario = new string[] {
                     "Negative"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo(": User Unable to create Board without supplying name", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("User Unable to create Board without supplying name", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 20
 this.ScenarioInitialize(scenarioInfo);
 #line hidden

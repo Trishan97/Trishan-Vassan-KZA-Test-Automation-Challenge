@@ -8,7 +8,7 @@ Background:
 	Then the user should be logged in and taken to the Trello Homepage
 
 @Positive
-Scenario: : Create and Delete New Board Through Frontend UI
+Scenario: Create and Delete New Board Through Frontend UI
 	Given the user clicks on the "Create new board" option
 	When the "Create board" modal appears
 	And the user fills in all required fields
