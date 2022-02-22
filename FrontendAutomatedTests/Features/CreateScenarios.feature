@@ -9,7 +9,7 @@ Background:
 	Then the user should be logged in and taken to the Trello Homepage
 
 @Positive
-Scenario: : Create New Board Through Frontend UI
+Scenario: Create New Board Through Frontend UI
 	Given the user clicks on the "Create new board" option
 	When the "Create board" modal appears
 	And the user fills in all required fields
@@ -17,7 +17,7 @@ Scenario: : Create New Board Through Frontend UI
 	And the user is able to close and Delete the newly created board
 
 @Negative
-Scenario: : User Unable to create Board without supplying name
+Scenario: User Unable to create Board without supplying name
 	Given the user clicks on the "Create new board" option
 	When the "Create board" modal appears
 	And the user does not fill in all required fields
