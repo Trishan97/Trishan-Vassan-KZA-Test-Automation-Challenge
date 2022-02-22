@@ -148,4 +148,4 @@ or
 
 
 
-![ E2E Video example ](/Media/Recordings/BackendTestsE2E.mp4)
+https://user-images.githubusercontent.com/30235965/155111737-4ad1be48-3db9-48bc-942e-54b463489b56.mp4
