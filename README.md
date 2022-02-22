@@ -116,7 +116,7 @@ or
 
 ![Test results explorer](/Media/Screenshots/TestResultsExplorer.PNG)
 
-9. These next step is **Optional** but if you would like to get a test report of the tests you have just run you can do so with Specflows living doc and then following the remaining steps :
+9. These next step is **Optional** but if you would like to get a test report of the tests you have just run you can do so with Specflows living doc and then following the remaining steps, also note that a test report can only be generated once a test run has been completed (can be a single, few or all tests) but a test does need to be run before completing the following steps :
 
 * Open a command prompt and onstall living doc with this command :
 
