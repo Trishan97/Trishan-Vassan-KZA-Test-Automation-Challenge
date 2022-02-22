@@ -7,6 +7,8 @@ namespace BackendAutomatedTests.Consts
     {
         public const string TrelloUrl = "https://api.trello.com";
 
+        // Please note all below values belong to a newly created test account and does not contain any sensitive information
+
         public const string ExistingBoardId = "620fe4163bb44a55800219cf";
         public const string UnauthorizedBoardId = "620ea15b87b6323daf7d4478";
         public const string BoardIdToUpdate = "6212e1d7de21a83206f1db42";
