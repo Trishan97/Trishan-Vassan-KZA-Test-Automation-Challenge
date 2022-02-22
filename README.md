@@ -42,12 +42,23 @@ This Deliverable can be found here :
 
   * This Deliverable can be found in this folder : [Deliverables](/Deliverables/) , in the ***Test Report.pdf*** file
 
-  * Frontend Test Results Report can be found here : [Frontend Automated Results](/Test_Results/LivingDocFrontend.html) - Clone repo first then You can download the HTML file and then open it in a browser to view test results
-  * Backend Test Results Report can be found here : [Backend Automated Results](/Test_Results/LivingDocBackend.html) - Clone repo first then You can download the HTML file and then open it in a browser to view test results
+  * Frontend Test Results Report can be found here : [Frontend Automated Results](/Test_Results/LivingDocFrontend.html) - To open correctly , you will need to clone the repo first then You can download the HTML file and then open it in a browser to view test results
+  * Backend Test Results Report can be found here : [Backend Automated Results](/Test_Results/LivingDocBackend.html) - To open correctly , you will need to clone the repo first then You can download the HTML file and then open it in a browser to view test results
 
 <br />
 
-# How to Setup Repo and run Tests
+* How to Setup Repo, run tests and produce test results
+  * This Deliverable is listed step by step in the next section but can also be found can be found in this folder : [Deliverables](/Deliverables/) , in the ***Test Setup and Run.pdf*** file
+
+<br />
+
+
+**Alternatively, all Deliverables are available in the following Google Drive folder :**  [Google Drive Deliverables folder](https://drive.google.com/drive/folders/1g9KNgwbqAdbl6i_D7t3sO0kpdaOeCRks?usp=sharing)
+
+<br />
+
+
+# How to Setup Repo, run Tests and produce test results
 
 Once the Repo has been successfully cloned these steps can be used to set up the tests and execute them locally
 
