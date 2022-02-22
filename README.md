@@ -22,7 +22,8 @@ Trishan Vassan KZA Test Automation Challenge Repository
 # Deliverables
 
 * Create a series of manual test cases that covers the CRUD operations on Trello board. Cover both **positive** & **negative** cases.
-  * This Deliverable can be found here : [Manual Test Cases](/FrontendAutomatedTests/Features/LoginTests.feature)
+  * This Deliverable can be found here : [Manual Test Cases](/Deliverables/)
+
 <br />
 <br />
 
@@ -30,12 +31,10 @@ Trishan Vassan KZA Test Automation Challenge Repository
   * This Deliverable can be found here : [Manual Test Cases](/FrontendAutomatedTests/Features/LoginTests.feature)
 <br />
 
-
 * Perform CRUD operations on Trello board. Automate (at least three) of the previously created test cases for both UI and Back-End.
 
   * This Deliverable can be found here : [Manual Test Cases](/FrontendAutomatedTests/Features/LoginTests.feature)
 <br />
-
 
 * **Provide a test report.**
   * This Deliverable can be found here : [Frontend Automated Results](/FrontendAutomatedTests/bin/Debug/netcoreapp3.1/LivingDoc.html)
