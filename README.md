@@ -1,8 +1,7 @@
 # Trishan-Vassan-Kza-Test-Automation-Challenge
 
-## Heading 2
+## Trishan Vassan KZA Test Automation Challenge Repository
 
-Trishan Vassan KZA Test Automation Challenge Repository
 <br />
 
 # Deliverables
@@ -69,13 +68,13 @@ or through Visual Studio or any other C# compatible IDE
    Once opened you may get a prompt to Install the targeting version of .NET if you do not have it installed yet  :
 
     **This is only relevant if you have recieved the above Prompt** =>
-   Install the targeting version of .NET Core 3.1 Runtime (LTS) through the visual studio installer : 
+   Install the targeting version of .NET Core 3.1 Runtime (LTS) through the visual studio installer :
+
+You may need to reopen visual studio and the project after installation and open the sln file again
 
 <br />
 
-   You may need to reopen visual studio and the project after installation and open the sln dile again
-
-3. Once that has been installed successfully your solution should open up and look like this 
+3. Once that dependency has been installed successfully your solution should open up and look like this
 
 <br />
 
@@ -83,6 +82,62 @@ or through Visual Studio or any other C# compatible IDE
 
 <br />
 
-4. The next step is to restore Nuget packages for the solution , this can be done by right clicking on the Solution file **Solution 'TrishanKzaAssessment' (2 of 2 projects)** and clicking on the **Restore NuGet Packages** Option 
+4. The next step is to restore Nuget packages for the solution , this can be done by right clicking on the Solution file **Solution 'TrishanKzaAssessment' (2 of 2 projects)** and clicking on the **Restore NuGet Packages** Option
 
 ![Nuget](/Media/Screenshots/RestoreNuget.PNG)
+
+<br />
+
+5. After that has been successfully completed the next step is to build the solution, this can be done by right clicking on the Solution file **Solution 'TrishanKzaAssessment' (2 of 2 projects)** and clicking on the **Build Solution** Option
+
+You can verify that the solution has built successfully by looking at the output window and gettign a build succeeded message :
+
+![Nuget](/Media/Screenshots/BuildSolution.PNG)
+
+6. The next step is to click on the **Test** option in the top ribbon and then select the **Test Explorer** option
+
+![Nuget](/Media/Screenshots/TestRibbon.PNG)
+
+This will then open the test explorer view with all available tests, and view each scenario by clicking on the little arrow next to each Test
+
+7. In order to run the test you can either:
+
+* Run an individual test by right clicking on a test case you would like to run, then selecting the **Run** option
+
+![Individual Test Run ](/Media/Screenshots/IndividualTestRun.PNG)
+
+or
+
+* Run all tests by selecting the **Run all tests in view** option on the top left of the Test Explorer
+
+![All Tests Run ](/Media/Screenshots/RunAllTestsOption.PNG)
+
+8. Once you have run either individual tests or all test cases the results will be displayed in the test explorer with the pass or fail status as well as how long each test took
+
+![Test results explorer](/Media/Screenshots/TestResultsExplorer.PNG)
+
+9. These next step is **Optional** but if you would like to get a test report of the tests you have just run you can do so with Specflows living doc and then following the remaining steps :
+
+* Open a command prompt and onstall living doc with this command :
+
+````
+   dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+````
+
+* [Link to LivingDoc Documentation](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/LivingDocGenerator/Installing-the-command-line-tool.html)
+
+* Once that has been successfully installed, navigate to the folder where the repo has been cloned to, an easy way to do this is by right clicking on the Solution file **Solution 'TrishanKzaAssessment' (2 of 2 projects)** and selecting the **Open Folder in File Explorer** option :
+
+![File Explorer](/Media/Screenshots/OpenFileInExplorer.PNG)
+
+* This should then open up the following folder :
+
+![Batch File](/Media/Screenshots/Batchfile.PNG)
+
+* Finally you can open either the **ViewBackendTestsResults.bat** file or the **ViewFrontendTestResults.bat** file to view the results of the automated tests in a nicely presented GUI format e.g. :
+
+![ Report eg ](/Media/Screenshots/reportExample.PNG)
+
+* From these reports you can view in detail each scenario and additional information about each, there is also an analytics page which shows the tests run vs tests passed or failed, which can be useful when presenting test results to a client, team or stakeholder 
+
+![ Analytics ](/Media/Screenshots/analytics.PNG)
