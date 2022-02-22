@@ -67,8 +67,12 @@ or through Visual Studio or any other C# compatible IDE
 
    Once opened you may get a prompt to Install the targeting version of .NET if you do not have it installed yet  :
 
+![not installed](/Media/Screenshots/Not_installed.PNG)
+
     **This is only relevant if you have recieved the above Prompt** =>
    Install the targeting version of .NET Core 3.1 Runtime (LTS) through the visual studio installer :
+
+![Netcore3](/Media/Screenshots/netcore.PNG)
 
 You may need to reopen visual studio and the project after installation and open the sln file again
 
@@ -138,6 +142,6 @@ or
 
 ![ Report eg ](/Media/Screenshots/reportExample.PNG)
 
-* From these reports you can view in detail each scenario and additional information about each, there is also an analytics page which shows the tests run vs tests passed or failed, which can be useful when presenting test results to a client, team or stakeholder 
+* From these reports you can view in detail each scenario and additional information about each, there is also an analytics page which shows the tests run vs tests passed or failed, which can be useful when presenting test results to a client, team or stakeholder
 
 ![ Analytics ](/Media/Screenshots/analytics.PNG)
