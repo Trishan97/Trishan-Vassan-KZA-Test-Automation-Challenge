@@ -40,12 +40,22 @@ This Deliverable can be found here :
 * **Provide a test report.**
 
   * This Deliverable can be found in this folder : [Deliverables](/Deliverables/) , in the ***Test Report.pdf*** file
-  
-  * Frontend Test Results Report can be found here : [Frontend Automated Results](/FrontendAutomatedTests/bin/Debug/netcoreapp3.1/LivingDoc.html)
-  * Backend Test Results Report can be found here : [Backend Automated Results](/BackendAutomatedTests/bin/Debug/netcoreapp3.1/LivingDoc.html)
+
+  * Frontend Test Results Report can be found here : [Frontend Automated Results](/TestResults/LivingDocFrontend.html)
+  * Backend Test Results Report can be found here : [Backend Automated Results](/TestResults/LivingDocBackend.html)
 
 <br />
 
 # How to run Tests
+
+Once the Repo has been successfully cloned these steps can be used to set up the tests and execute them locally 
+
+1. Clone the repo if not done yet
+
+````
+ git clone https://github.com/Trishan97/Trishan-Vassan-Kza-Test-Automation-Challenge.git
+````
+
+
 
 ![Solution Eg](/Media/Screenshots/SolutionTest.PNG)
