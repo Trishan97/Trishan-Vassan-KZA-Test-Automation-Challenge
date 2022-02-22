@@ -4,7 +4,7 @@
 
 * [Deliverables](#deliverables)
 
-* [How to Setup Repo and Run Tests](#how-to-setup-repo-and-run-tests)
+* [How to Setup Repo, Run Tests and Generate Test Results](#how-to-setup-repo-run-tests-and-generate-test-results)
 
 * [Screen Recording Showing Backend Test Running and Test results Generation](#screen-recording-showing-backend-test-running-process-and-test-report-generation)
 
